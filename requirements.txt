@@ -1,0 +1,11 @@
+streamlit>=1.36
+pandas>=2.0
+pypdf>=4.0
+python-dotenv>=1.0
+numpy>=1.24
+pytest>=8.0
+openpyxl>=3.1
+reportlab>=4.0
+faiss-cpu>=1.8; platform_system != "Windows"
+sentence-transformers>=3.0
+langgraph>=0.2

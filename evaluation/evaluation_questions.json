@@ -1,0 +1,17 @@
+[
+ {"id":"Q1","role":"AML_ANALYST","question":"Show suspicious transactions this month.","expected_behavior":"returns findings","test_type":"screening"},
+ {"id":"Q2","role":"AML_ANALYST","question":"Which transactions are above 1000000?","expected_behavior":"large rule","test_type":"screening"},
+ {"id":"Q3","role":"AML_ANALYST","question":"Which transactions have sanctions matches?","expected_behavior":"watchlist results","test_type":"sanctions"},
+ {"id":"Q4","role":"AML_ANALYST","question":"What does FATF say about correspondent banking?","expected_behavior":"regulatory evidence","test_type":"rag"},
+ {"id":"Q5","role":"AML_ANALYST","question":"Which transactions violate FATF guidance?","expected_behavior":"transactions and evidence","test_type":"combined"},
+ {"id":"Q6","role":"AML_ANALYST","question":"Show customer C001.","expected_behavior":"masked customer","test_type":"pii"},
+ {"id":"Q7","role":"ADMIN","question":"Show customer C001 full PII.","expected_behavior":"full customer permitted","test_type":"admin_access"},
+ {"id":"Q8","role":"AML_ANALYST","question":"Show customer C001 full PII.","expected_behavior":"access denied","test_type":"analyst_refusal"},
+ {"id":"Q9","role":"EXTERNAL_AUDITOR","question":"Show customer C001 full PII.","expected_behavior":"access denied","test_type":"auditor_refusal"},
+ {"id":"Q10","role":"EXTERNAL_AUDITOR","question":"Show audit decisions.","expected_behavior":"audit permission","test_type":"role_behavior"},
+ {"id":"Q11","role":"AML_ANALYST","question":"Show suspicious transactions.","expected_behavior":"screening handoff","test_type":"handoff"},
+ {"id":"Q12","role":"AML_ANALYST","question":"Feedback changes risk priority.","expected_behavior":"score decreases after false positive","test_type":"feedback"},
+ {"id":"Q13","role":"RELATIONSHIP_MANAGER","question":"Show customer C001.","expected_behavior":"masked customer in assigned portfolio","test_type":"portfolio_access"},
+ {"id":"Q14","role":"RELATIONSHIP_MANAGER","question":"Show customer C011.","expected_behavior":"access denied outside assigned portfolio","test_type":"portfolio_refusal"},
+ {"id":"Q15","role":"RELATIONSHIP_MANAGER","question":"Show suspicious transactions.","expected_behavior":"screening limited to assigned portfolio","test_type":"portfolio_screening"}
+]

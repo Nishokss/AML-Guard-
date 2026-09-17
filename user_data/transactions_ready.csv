@@ -1,0 +1,16 @@
+transaction_id,customer_id,amount,country,date,sender_name,receiver_name,description,risk_score
+U001,C101,4500,India,2026-09-17,Anita Rao,Ravi Kumar,Monthly salary payment,0
+U002,C102,12500,Singapore,2026-09-16,Daniel Lee,Meera Shah,Vendor invoice settlement,0
+U003,C103,2500000,Iran,2026-09-16,John Smith,Global Trade Ltd,Urgent cash transfer bypass compliance review,0
+U004,C104,7800,United Kingdom,2026-09-15,Sarah Wilson,David Brown,Utility payment,0
+U005,C105,185000,India,2026-09-15,Arun Patel,Acme Trading Ltd,Unusual urgent transfer,0
+U006,C106,9500,United States,2026-09-14,Michael Chen,Lisa Wong,Consulting payment,0
+U007,C103,2200000,Iran,2026-09-14,John Smith,Global Trade Ltd,Repeated urgent cash transfer,0
+U008,C107,34000,India,2026-09-13,Priya Nair,Sunrise Services,Regular business payment,0
+U009,C108,1100000,Syria,2026-09-13,Omar Hassan,North Star Imports,Large international transfer,0
+U010,C109,6200,United Kingdom,2026-09-12,Emma Jones,Daniel Lee,Personal expense reimbursement,0
+U011,C110,89000,Singapore,2026-09-12,Lina Chen,Pacific Holdings,Normal supplier payment,0
+U012,C105,175000,India,2026-09-11,Arun Patel,Acme Trading Ltd,Repeated unusual transfer,0
+U013,C111,5200,India,2026-09-10,Robert King,Anita Rao,Monthly service payment,0
+U014,C112,1300000,NORTH KOREA,2026-09-10,Min Park,East Asia Trading,Large high risk jurisdiction transfer,0
+U015,C113,7200,United States,2026-09-09,Grace Miller,Michael Chen,Normal account transfer,0

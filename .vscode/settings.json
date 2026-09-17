@@ -1,0 +1,8 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\Nishok\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "python.analysis.extraPaths": [
+        "C:\\Users\\Nishok\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages"
+    ]
+}{
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}

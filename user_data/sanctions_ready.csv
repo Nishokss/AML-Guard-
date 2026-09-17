@@ -1,0 +1,5 @@
+name,entity_type,country,sanctions_program
+John Smith,PERSON,United Kingdom,DEMO-USER-WATCHLIST
+Acme Trading Ltd,ORGANIZATION,Iran,DEMO-USER-WATCHLIST
+Omar Hassan,PERSON,Syria,DEMO-USER-WATCHLIST
+Min Park,PERSON,NORTH KOREA,DEMO-USER-WATCHLIST

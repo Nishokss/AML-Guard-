@@ -1,0 +1,201 @@
+transaction_id,customer_id,amount,country,date,sender_name,receiver_name,description,risk_score
+T001,C001,5137,United Kingdom,2026-09-17,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T002,C002,5274,Singapore,2026-09-16,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T003,C003,5411,United States,2026-09-15,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T004,C004,5548,Iran,2026-09-14,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T005,C005,5685,United Arab Emirates,2026-09-13,David Brown,Priya Shah,Urgent transfer for invoice,0
+T006,C006,5822,India,2026-09-12,John Smith,Lina Chen,Urgent transfer for invoice,0
+T007,C007,5959,United Kingdom,2026-09-11,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T008,C008,6096,Singapore,2026-09-10,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T009,C009,6233,United States,2026-09-09,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T010,C010,6370,Iran,2026-09-08,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T011,C011,6507,United Arab Emirates,2026-09-07,David Brown,Priya Shah,Urgent transfer for invoice,0
+T012,C012,6644,India,2026-09-06,John Smith,Lina Chen,Urgent transfer for invoice,0
+T013,C013,6781,United Kingdom,2026-09-05,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T014,C014,6918,Singapore,2026-09-04,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T015,C015,7055,United States,2026-09-03,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T016,C016,7192,Iran,2026-09-02,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T017,C017,1517000,Iran,2026-09-01,John Smith,Priya Shah,"urgent cash transfer, bypass compliance review",0
+T018,C018,7466,India,2026-08-31,John Smith,Lina Chen,Urgent transfer for invoice,0
+T019,C019,7603,United Kingdom,2026-08-30,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T020,C020,7740,Singapore,2026-08-29,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T021,C001,7877,United States,2026-08-28,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T022,C002,8014,Iran,2026-08-27,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T023,C003,8151,United Arab Emirates,2026-08-26,David Brown,Priya Shah,Urgent transfer for invoice,0
+T024,C004,8288,India,2026-08-25,John Smith,Lina Chen,Urgent transfer for invoice,0
+T025,C005,8425,United Kingdom,2026-08-24,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T026,C006,8562,Singapore,2026-08-23,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T027,C007,8699,United States,2026-08-22,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T028,C008,8836,Iran,2026-08-21,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T029,C009,8973,United Arab Emirates,2026-08-20,David Brown,Priya Shah,Urgent transfer for invoice,0
+T030,C010,9110,India,2026-08-19,John Smith,Lina Chen,Urgent transfer for invoice,0
+T031,C011,9247,United Kingdom,2026-08-18,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T032,C012,9384,Singapore,2026-08-17,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T033,C013,9521,United States,2026-08-16,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T034,C014,1534000,Iran,2026-08-15,John Smith,John Smith,"urgent cash transfer, bypass compliance review",0
+T035,C015,9795,United Arab Emirates,2026-09-18,David Brown,Priya Shah,Urgent transfer for invoice,0
+T036,C016,9932,India,2026-09-17,John Smith,Lina Chen,Urgent transfer for invoice,0
+T037,C017,10069,United Kingdom,2026-09-16,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T038,C018,10206,Singapore,2026-09-15,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T039,C019,10343,United States,2026-09-14,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T040,C020,10480,Iran,2026-09-13,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T041,C001,10617,United Arab Emirates,2026-09-12,David Brown,Priya Shah,Urgent transfer for invoice,0
+T042,C002,10754,India,2026-09-11,John Smith,Lina Chen,Urgent transfer for invoice,0
+T043,C003,10891,United Kingdom,2026-09-10,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T044,C004,11028,Singapore,2026-09-09,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T045,C005,11165,United States,2026-09-08,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T046,C006,11302,Iran,2026-09-07,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T047,C007,11439,United Arab Emirates,2026-09-06,David Brown,Priya Shah,Urgent transfer for invoice,0
+T048,C008,11576,India,2026-09-05,John Smith,Lina Chen,Urgent transfer for invoice,0
+T049,C009,11713,United Kingdom,2026-09-04,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T050,C010,11850,Singapore,2026-09-03,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T051,C011,1551000,Iran,2026-09-02,John Smith,David Brown,"urgent cash transfer, bypass compliance review",0
+T052,C012,12124,Iran,2026-09-01,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T053,C013,12261,United Arab Emirates,2026-08-31,David Brown,Priya Shah,Urgent transfer for invoice,0
+T054,C014,12398,India,2026-08-30,John Smith,Lina Chen,Urgent transfer for invoice,0
+T055,C015,12535,United Kingdom,2026-08-29,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T056,C016,12672,Singapore,2026-08-28,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T057,C017,12809,United States,2026-08-27,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T058,C018,12946,Iran,2026-08-26,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T059,C019,13083,United Arab Emirates,2026-08-25,David Brown,Priya Shah,Urgent transfer for invoice,0
+T060,C020,13220,India,2026-08-24,John Smith,Lina Chen,Urgent transfer for invoice,0
+T061,C001,13357,United Kingdom,2026-08-23,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T062,C002,13494,Singapore,2026-08-22,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T063,C003,13631,United States,2026-08-21,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T064,C004,13768,Iran,2026-08-20,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T065,C005,13905,United Arab Emirates,2026-08-19,David Brown,Priya Shah,Urgent transfer for invoice,0
+T066,C006,14042,India,2026-08-18,John Smith,Lina Chen,Urgent transfer for invoice,0
+T067,C007,14179,United Kingdom,2026-08-17,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T068,C008,1568000,Singapore,2026-08-16,Lina Chen,Maria Garcia,"urgent cash transfer, bypass compliance review",0
+T069,C009,14453,United States,2026-08-15,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T070,C010,14590,Iran,2026-09-18,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T071,C011,14727,United Arab Emirates,2026-09-17,David Brown,Priya Shah,Urgent transfer for invoice,0
+T072,C012,14864,India,2026-09-16,John Smith,Lina Chen,Urgent transfer for invoice,0
+T073,C013,15001,United Kingdom,2026-09-15,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T074,C014,15138,Singapore,2026-09-14,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T075,C015,15275,United States,2026-09-13,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T076,C016,15412,Iran,2026-09-12,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T077,C017,15549,United Arab Emirates,2026-09-11,David Brown,Priya Shah,Urgent transfer for invoice,0
+T078,C018,15686,India,2026-09-10,John Smith,Lina Chen,Urgent transfer for invoice,0
+T079,C019,15823,United Kingdom,2026-09-09,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T080,C020,15960,Singapore,2026-09-08,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T081,C001,16097,United States,2026-09-07,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T082,C002,16234,Iran,2026-09-06,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T083,C003,16371,United Arab Emirates,2026-09-05,David Brown,Priya Shah,Urgent transfer for invoice,0
+T084,C004,16508,India,2026-09-04,John Smith,Lina Chen,Urgent transfer for invoice,0
+T085,C005,1585000,Iran,2026-09-03,Priya Shah,Arun Kumar,"urgent cash transfer, bypass compliance review",0
+T086,C006,16782,Singapore,2026-09-02,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T087,C007,16919,United States,2026-09-01,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T088,C008,17056,Iran,2026-08-31,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T089,C009,17193,United Arab Emirates,2026-08-30,David Brown,Priya Shah,Urgent transfer for invoice,0
+T090,C010,17330,India,2026-08-29,John Smith,Lina Chen,Urgent transfer for invoice,0
+T091,C011,17467,United Kingdom,2026-08-28,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T092,C012,17604,Singapore,2026-08-27,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T093,C013,17741,United States,2026-08-26,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T094,C014,17878,Iran,2026-08-25,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T095,C015,18015,United Arab Emirates,2026-08-24,David Brown,Priya Shah,Urgent transfer for invoice,0
+T096,C016,18152,India,2026-08-23,John Smith,Lina Chen,Urgent transfer for invoice,0
+T097,C017,18289,United Kingdom,2026-08-22,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T098,C018,18426,Singapore,2026-08-21,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T099,C019,18563,United States,2026-08-20,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T100,C020,18700,Iran,2026-08-19,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T101,C001,18837,United Arab Emirates,2026-08-18,David Brown,Priya Shah,Urgent transfer for invoice,0
+T102,C002,1602000,India,2026-08-17,John Smith,Lina Chen,"urgent cash transfer, bypass compliance review",0
+T103,C003,19111,United Kingdom,2026-08-16,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T104,C004,19248,Singapore,2026-08-15,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T105,C005,19385,United States,2026-09-18,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T106,C006,19522,Iran,2026-09-17,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T107,C007,19659,United Arab Emirates,2026-09-16,David Brown,Priya Shah,Urgent transfer for invoice,0
+T108,C008,19796,India,2026-09-15,John Smith,Lina Chen,Urgent transfer for invoice,0
+T109,C009,19933,United Kingdom,2026-09-14,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T110,C010,20070,Singapore,2026-09-13,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T111,C011,20207,United States,2026-09-12,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T112,C012,20344,Iran,2026-09-11,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T113,C013,20481,United Arab Emirates,2026-09-10,David Brown,Priya Shah,Urgent transfer for invoice,0
+T114,C014,20618,India,2026-09-09,John Smith,Lina Chen,Urgent transfer for invoice,0
+T115,C015,20755,United Kingdom,2026-09-08,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T116,C016,20892,Singapore,2026-09-07,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T117,C017,21029,United States,2026-09-06,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T118,C018,21166,Iran,2026-09-05,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T119,C019,1619000,Iran,2026-09-04,David Brown,Priya Shah,"urgent cash transfer, bypass compliance review",0
+T120,C020,21440,India,2026-09-03,John Smith,Lina Chen,Urgent transfer for invoice,0
+T121,C001,21577,United Kingdom,2026-09-02,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T122,C002,21714,Singapore,2026-09-01,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T123,C003,21851,United States,2026-08-31,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T124,C004,21988,Iran,2026-08-30,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T125,C005,22125,United Arab Emirates,2026-08-29,David Brown,Priya Shah,Urgent transfer for invoice,0
+T126,C006,22262,India,2026-08-28,John Smith,Lina Chen,Urgent transfer for invoice,0
+T127,C007,22399,United Kingdom,2026-08-27,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T128,C008,22536,Singapore,2026-08-26,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T129,C009,22673,United States,2026-08-25,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T130,C010,22810,Iran,2026-08-24,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T131,C011,22947,United Arab Emirates,2026-08-23,David Brown,Priya Shah,Urgent transfer for invoice,0
+T132,C012,23084,India,2026-08-22,John Smith,Lina Chen,Urgent transfer for invoice,0
+T133,C013,23221,United Kingdom,2026-08-21,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T134,C014,23358,Singapore,2026-08-20,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T135,C015,23495,United States,2026-08-19,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T136,C016,1636000,Iran,2026-08-18,Maria Garcia,John Smith,"urgent cash transfer, bypass compliance review",0
+T137,C017,23769,United Arab Emirates,2026-08-17,David Brown,Priya Shah,Urgent transfer for invoice,0
+T138,C018,23906,India,2026-08-16,John Smith,Lina Chen,Urgent transfer for invoice,0
+T139,C019,24043,United Kingdom,2026-08-15,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T140,C020,24180,Singapore,2026-09-18,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T141,C001,24317,United States,2026-09-17,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T142,C002,24454,Iran,2026-09-16,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T143,C003,24591,United Arab Emirates,2026-09-15,David Brown,Priya Shah,Urgent transfer for invoice,0
+T144,C004,24728,India,2026-09-14,John Smith,Lina Chen,Urgent transfer for invoice,0
+T145,C005,24865,United Kingdom,2026-09-13,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T146,C006,25002,Singapore,2026-09-12,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T147,C007,25139,United States,2026-09-11,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T148,C008,25276,Iran,2026-09-10,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T149,C009,25413,United Arab Emirates,2026-09-09,David Brown,Priya Shah,Urgent transfer for invoice,0
+T150,C010,25550,India,2026-09-08,John Smith,Lina Chen,Urgent transfer for invoice,0
+T151,C011,25687,United Kingdom,2026-09-07,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T152,C012,25824,Singapore,2026-09-06,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T153,C013,1653000,Iran,2026-09-05,Arun Kumar,David Brown,"urgent cash transfer, bypass compliance review",0
+T154,C014,26098,Iran,2026-09-04,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T155,C015,26235,United Arab Emirates,2026-09-03,David Brown,Priya Shah,Urgent transfer for invoice,0
+T156,C016,26372,India,2026-09-02,John Smith,Lina Chen,Urgent transfer for invoice,0
+T157,C017,26509,United Kingdom,2026-09-01,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T158,C018,26646,Singapore,2026-08-31,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T159,C019,26783,United States,2026-08-30,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T160,C020,26920,Iran,2026-08-29,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T161,C001,27057,United Arab Emirates,2026-08-28,David Brown,Priya Shah,Urgent transfer for invoice,0
+T162,C002,27194,India,2026-08-27,John Smith,Lina Chen,Urgent transfer for invoice,0
+T163,C003,27331,United Kingdom,2026-08-26,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T164,C004,27468,Singapore,2026-08-25,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T165,C005,27605,United States,2026-08-24,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T166,C006,27742,Iran,2026-08-23,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T167,C007,27879,United Arab Emirates,2026-08-22,David Brown,Priya Shah,Urgent transfer for invoice,0
+T168,C008,28016,India,2026-08-21,John Smith,Lina Chen,Urgent transfer for invoice,0
+T169,C009,28153,United Kingdom,2026-08-20,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T170,C010,1670000,Singapore,2026-08-19,Lina Chen,Maria Garcia,"urgent cash transfer, bypass compliance review",0
+T171,C011,28427,United States,2026-08-18,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T172,C012,28564,Iran,2026-08-17,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T173,C013,28701,United Arab Emirates,2026-08-16,David Brown,Priya Shah,Urgent transfer for invoice,0
+T174,C014,28838,India,2026-08-15,John Smith,Lina Chen,Urgent transfer for invoice,0
+T175,C015,28975,United Kingdom,2026-09-18,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T176,C016,29112,Singapore,2026-09-17,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T177,C017,29249,United States,2026-09-16,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T178,C018,29386,Iran,2026-09-15,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T179,C019,29523,United Arab Emirates,2026-09-14,David Brown,Priya Shah,Urgent transfer for invoice,0
+T180,C020,29660,India,2026-09-13,John Smith,Lina Chen,Urgent transfer for invoice,0
+T181,C001,29797,United Kingdom,2026-09-12,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T182,C002,29934,Singapore,2026-09-11,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T183,C003,30071,United States,2026-09-10,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T184,C004,30208,Iran,2026-09-09,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T185,C005,30345,United Arab Emirates,2026-09-08,David Brown,Priya Shah,Urgent transfer for invoice,0
+T186,C006,30482,India,2026-09-07,John Smith,Lina Chen,Urgent transfer for invoice,0
+T187,C007,1687000,Iran,2026-09-06,Priya Shah,Arun Kumar,"urgent cash transfer, bypass compliance review",0
+T188,C008,30756,Singapore,2026-09-05,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T189,C009,30893,United States,2026-09-04,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T190,C010,31030,Iran,2026-09-03,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T191,C011,31167,United Arab Emirates,2026-09-02,David Brown,Priya Shah,Urgent transfer for invoice,0
+T192,C012,31304,India,2026-09-01,John Smith,Lina Chen,Urgent transfer for invoice,0
+T193,C013,31441,United Kingdom,2026-08-31,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T194,C014,31578,Singapore,2026-08-30,Lina Chen,Maria Garcia,Urgent transfer for invoice,0
+T195,C015,31715,United States,2026-08-29,Arun Kumar,David Brown,Urgent transfer for invoice,0
+T196,C016,31852,Iran,2026-08-28,Maria Garcia,John Smith,Urgent transfer for invoice,0
+T197,C017,31989,United Arab Emirates,2026-08-27,David Brown,Priya Shah,Urgent transfer for invoice,0
+T198,C018,32126,India,2026-08-26,John Smith,Lina Chen,Urgent transfer for invoice,0
+T199,C019,32263,United Kingdom,2026-08-25,Priya Shah,Arun Kumar,Urgent transfer for invoice,0
+T200,C020,32400,Singapore,2026-08-24,Lina Chen,Maria Garcia,Urgent transfer for invoice,0

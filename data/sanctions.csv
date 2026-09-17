@@ -1,0 +1,4 @@
+name,entity_type,country,sanctions_program
+John Smith,PERSON,United Kingdom,DEMO-WATCHLIST
+Acme Trading Ltd,ORGANIZATION,Iran,DEMO-WATCHLIST
+Lina Chen,PERSON,Singapore,DEMO-WATCHLIST
