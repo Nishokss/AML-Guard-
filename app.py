@@ -197,7 +197,7 @@ def main():
                         log_audit(user["username"], user["role"], "login", "session", "ALLOWED", connection)
                         st.rerun()
                     else: st.error("Invalid username or password")
-            st.markdown('<div class="demo-note"><strong>Demo access</strong><br>admin / admin123 · analyst / analyst123 · auditor / auditor123<br>relationship_manager / rm123<br><span style="font-size:.68rem">Relationship Manager: masked portfolio data for C001-C010</span></div>', unsafe_allow_html=True)
+            st.markdown('<div class="demo-note"><strong>Demo access</strong><br>admin / admin123 · analyst / analyst123 · auditor / auditor123<br>relationship_manager / rm123<br><span style="font-size:.68rem"></span></div>', unsafe_allow_html=True)
         return
     user = st.session_state.user; role = user["role"]
     with st.sidebar:
