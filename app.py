@@ -34,7 +34,9 @@ def apply_theme():
     [data-testid="stSidebar"] > div:first-child { padding:1.35rem .9rem; }
     [data-testid="stSidebar"] * { color:#dce5f2; }
     [data-testid="stSidebar"] .stRadio label { width:100%; min-height:38px; box-sizing:border-box; display:flex; align-items:center; padding:.62rem .72rem; margin:0; border-radius:7px; font-size:.84rem; border:1px solid transparent; transition:background .15s ease; }
-    [data-testid="stSidebar"] .stRadio label > div:first-child { display:none; }
+    [data-testid="stSidebar"] .stRadio label > div:first-child,
+    [data-testid="stSidebar"] .stRadio input,
+    [data-testid="stSidebar"] .stRadio [data-testid="stWidgetLabel"] { display:none !important; }
     [data-testid="stSidebar"] .stRadio [role="radiogroup"] { gap:.18rem; }
     [data-testid="stSidebar"] .stRadio label:hover { background:#1b293c; border-color:#2a3b54; }
     [data-testid="stSidebar"] .stRadio label:has(input:checked) { background:#173b72; border-color:#2e73d7; color:#fff; }
