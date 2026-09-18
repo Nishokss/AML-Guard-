@@ -33,5 +33,5 @@ class ScreeningAgent:
             if sanctions["status"] != "No match": reasons.append(f"{sanctions['status']} sanctions result")
             base_score = min(100, len(reasons) * 20 + (30 if float(transaction["amount"]) >= self.large_threshold else 0))
             if reasons:
-                findings.append({"transaction_id": transaction["transaction_id"], "customer_id": transaction["customer_id"], "amount": transaction["amount"], "country": transaction["country"], "risk_level": "HIGH" if base_score >= 70 else "MEDIUM", "risk_score": base_score, "reasons": reasons, "sanctions_match": sanctions, "regulatory_evidence": retrieve_regulatory_evidence(question or "suspicious transaction high risk monitoring", 2)})
+                findings.append({"transaction_id": transaction["transaction_id"], "customer_id": transaction["customer_id"], "date": transaction["date"], "amount": transaction["amount"], "country": transaction["country"], "risk_level": "HIGH" if base_score >= 70 else "MEDIUM", "risk_score": base_score, "reasons": reasons, "sanctions_match": sanctions, "regulatory_evidence": retrieve_regulatory_evidence(question or "suspicious transaction high risk monitoring", 2)})
         return findings

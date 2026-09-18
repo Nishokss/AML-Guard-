@@ -6,6 +6,7 @@ REQUIRED = {"name", "entity_type", "country", "sanctions_program"}
 
 def load_sanctions(path, connection):
     frame = pd.read_excel(path) if Path(path).suffix.lower() in {".xls", ".xlsx"} else pd.read_csv(path)
+    frame.columns = [str(column).replace("\ufeff", "").strip().lower().replace(" ", "_") for column in frame.columns]
     missing = REQUIRED - set(frame.columns)
     if missing: raise ValueError(f"Missing sanctions columns: {', '.join(sorted(missing))}")
     frame = frame.fillna(""); frame["normalized_name"] = frame["name"].map(normalize_name)

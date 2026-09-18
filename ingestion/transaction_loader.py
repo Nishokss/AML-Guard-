@@ -6,6 +6,7 @@ REQUIRED = {"transaction_id", "customer_id", "amount", "country", "date", "sende
 def load_transactions(path, connection):
     path = Path(path)
     frame = pd.read_excel(path) if path.suffix.lower() in {".xls", ".xlsx"} else pd.read_csv(path)
+    frame.columns = [str(column).replace("\ufeff", "").strip().lower().replace(" ", "_") for column in frame.columns]
     missing = REQUIRED - set(frame.columns)
     if missing: raise ValueError(f"Missing transaction columns: {', '.join(sorted(missing))}")
     frame = frame.fillna("")

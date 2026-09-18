@@ -70,7 +70,7 @@ def apply_theme():
     .panel-title { font-family:'Space Grotesk'; font-size:1rem; font-weight:600; margin-bottom:.2rem; }
     .panel-subtitle { color:var(--muted); font-size:.75rem; }
     [data-testid="stDataFrame"] { border:1px solid var(--line); border-radius:9px; overflow:hidden; }
-    .stButton > button, [data-testid="stFormSubmitButton"] button { color:var(--ink) !important; background:#fff !important; border:1px solid #cbd5e1 !important; border-radius:7px; font-weight:600; }
+    .stButton > button, [data-testid="stFormSubmitButton"] button { color:var(--ink) !important; background:#fff !important; border:1px solid #cbd5e1 !important; border-radius:7px; font-weight:600; cursor:pointer !important; }
     .stButton > button[kind="primary"], [data-testid="stFormSubmitButton"] button[kind="primary"] { color:#fff !important; background:var(--blue) !important; border-color:var(--blue) !important; }
     [data-testid="stBaseButton-primary"], [data-testid="stFormSubmitButton"] button { color:#fff !important; background:#111827 !important; border-color:#111827 !important; border-radius:7px !important; font-weight:600 !important; }
     [data-testid="stBaseButton-primary"] *, [data-testid="stFormSubmitButton"] button * { color:#fff !important; }
@@ -80,7 +80,7 @@ def apply_theme():
     .assistant-intro h2 { color:white; margin:0 0 .3rem; font-size:1.35rem; }
     .assistant-intro p { color:#c7dbf7; margin:0; font-size:.84rem; }
     [data-testid="stForm"] { background:#dce8f7; border:1px solid #a9c2df; border-radius:10px; padding:1rem 1.1rem .8rem; box-shadow:0 5px 18px rgba(23,34,53,.07); }
-    [data-testid="stTextInput"] input { color:#172033 !important; background:#fff !important; border:1px solid #7892ad !important; border-radius:8px !important; }
+    [data-testid="stTextInput"] input { color:#172033 !important; background:#fff !important; border:1px solid #7892ad !important; border-radius:8px !important; cursor:text !important; caret-color:#2563d9 !important; }
     [data-testid="stTextInput"] input:focus { border-color:#2563d9 !important; box-shadow:0 0 0 2px rgba(37,99,217,.22) !important; }
     [data-testid="stTextInput"] label { color:#172033 !important; font-weight:600; }
     [data-testid="stFileUploader"] section, [data-testid="stFileUploaderDropzone"] { background:#eaf1ff !important; border:1px solid #b7cbe6 !important; border-radius:9px !important; }
@@ -313,7 +313,11 @@ def main():
                 after = adjusted_finding(finding, connection); st.success(f"After feedback: {after['risk_score']} / {after['risk_level']}")
     elif page == "Evaluation":
         st.header("Evaluation")
-        if st.button("Run evaluation"): st.code(__import__("subprocess").check_output(["python", "evaluation/evaluate.py"], text=True))
+        st.write("Use this check to quickly confirm that the main AML Guard features are working with the demo data.")
+        st.info("Click **Run evaluation** below. A **PASS** means that feature is working as expected; the final pass rate shows the overall result.")
+        if st.button("Run evaluation", type="primary"):
+            st.markdown("**Evaluation results**")
+            st.code(__import__("subprocess").check_output(["python", "evaluation/evaluate.py"], text=True))
     else:
         st.header("Audit logs"); st.dataframe(rows(connection, "SELECT username, role, action, resource, access_decision, timestamp FROM audit_logs ORDER BY id DESC LIMIT 100"), use_container_width=True)
 

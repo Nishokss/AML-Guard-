@@ -9,6 +9,14 @@ DATA_DIR = ROOT / "data"
 REGULATIONS_DIR = DATA_DIR / "regulations"
 LARGE_TRANSACTION_THRESHOLD = float(os.getenv("LARGE_TRANSACTION_THRESHOLD", "1000000"))
 HIGH_RISK_COUNTRIES = {"IRAN", "NORTH KOREA", "SYRIA", "MYANMAR"}
-LLM_PROVIDER = os.getenv("LLM_PROVIDER", "groq")
-LLM_API_KEY = os.getenv("GROQ_API_KEY") if LLM_PROVIDER == "groq" else os.getenv("OPENAI_API_KEY")
+LLM_PROVIDER = os.getenv("LLM_PROVIDER", "gemini").lower()
+LLM_API_KEY = {
+	"gemini": os.getenv("GEMINI_API_KEY"),
+	"groq": os.getenv("GROQ_API_KEY"),
+	"openai": os.getenv("OPENAI_API_KEY"),
+}.get(LLM_PROVIDER)
+LLM_MODEL = os.getenv(
+	"GROQ_MODEL" if LLM_PROVIDER == "groq" else "GEMINI_MODEL",
+	"openai/gpt-oss-20b" if LLM_PROVIDER == "groq" else "gemini-3.6-flash",
+)
 DEMO_MODE = not bool(LLM_API_KEY)

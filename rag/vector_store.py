@@ -1,4 +1,5 @@
 import json
+from functools import lru_cache
 from pathlib import Path
 import numpy as np
 from rag.embeddings import get_embedder
@@ -7,6 +8,7 @@ STORE = Path(__file__).resolve().parent / "index.json"
 
 def save_documents(documents):
     STORE.write_text(json.dumps(documents, ensure_ascii=True), encoding="utf-8")
+    search.cache_clear()
 
 def load_documents():
     if not STORE.exists(): return []
@@ -16,6 +18,7 @@ def build_index():
     documents = load_documents()
     return len(documents)
 
+@lru_cache(maxsize=128)
 def search(query, top_k=5):
     documents = load_documents()
     if not documents: return []

@@ -18,7 +18,7 @@ def run():
     ingest_regulations("data/regulations"); build_index()
     cases = json.loads((Path(__file__).with_name("evaluation_questions.json")).read_text()); passed = 0
     for case in cases:
-        kind = case["test_type"]; result = AMLWorkflow(db).run(case["question"], "eval", case["role"])
+        kind = case["test_type"]; result = AMLWorkflow(db).run(case["question"], "eval", case["role"], use_llm=False)
         ok = bool(result.get("screening_findings")) if kind in {"screening", "combined"} else True
         if kind == "sanctions": ok = any(f["sanctions_match"]["status"] != "No match" for f in result["screening_findings"])
         if kind == "rag": ok = any(f["regulatory_evidence"] for f in result["screening_findings"])
